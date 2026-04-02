@@ -236,7 +236,6 @@ $listStmt->bind_param("i", $event_id);
 $listStmt->execute();
 $listResult = $listStmt->get_result();
 
-include("header.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
